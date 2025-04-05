@@ -78,6 +78,11 @@ nav ul li a {
     transition: background-color 0.3s ease;
 }
 
+.hero-contato:hover {
+    background-color: #0056b3;
+    color: #fcf5f5;
+}
+
 .hero-text {
     flex: 1;
     padding-right: 2rem;
