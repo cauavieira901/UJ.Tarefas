@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeuTube</title>
+    <link rel="stylesheet" href="youTube.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container-logo">
+            <i class="fas fa-bars icone-menu"></i>
+            <div class="logo">
+                <i class="fab fa-youtube"></i>
+                <span>MeuTube</span>
+            </div>
+        </div>
+        <div class="container-busca">
+            <input type="text" placeholder="Pesquisar">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="acoes-usuario">
+            <i class="fas fa-bell"></i>
+            <div class="avatar-usuario">U</div>
+        </div>
+    </header>
+
+    <div class="container-principal">
+        <aside class="barra-lateral">
+            <nav>
+                <ul>
+                    <li class="ativo"><i class="fas fa-home"></i> Início</li>
+                    <li><i class="fas fa-fire"></i> Em alta</li>
+                    <li><i class="fas fa-subscription"></i> Inscrições</li>
+                    <li><i class="fas fa-folder"></i> Biblioteca</li>
+                    <li><i class="fas fa-history"></i> Histórico</li>
+                    <li><i class="fas fa-clock"></i> Assistir mais tarde</li>
+                    <li><i class="fas fa-thumbs-up"></i> Vídeos curtidos</li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="conteudo">
+            <div class="container-video">
+                <div class="wrapper-video">
+                    <iframe src="https://www.youtube.com/embed/gdu8RIN-SHk" title="MC Negão Original" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+                <div class="info-video">
+                    <h1>MESSI NÃO É DESSE PLANETA! BARCELONA 3X0 BAYERN | MELHORES MOMENTOS | SEMIFINAL CHAMPIONS 2014/15</h1>
+                    <div class="estatisticas-video">
+                        <span>1 mi de visualizações</span>
+                        <span>•</span>
+                        <span>há 1 ano</span>
+                    </div>
+                    
+                    <div class="acoes-video">
+                        <button><i class="fas fa-thumbs-up"></i> 2 mi</button>
+                        <button><i class="fas fa-thumbs-down"></i> Não gostei</button>
+                        <button><i class="fas fa-share"></i> Compartilhar</button>
+                        <button><i class="fas fa-save"></i> Salvar</button>
+                    </div>
+                    
+                    <div class="info-canal">
+                        <div class="avatar-canal">T</div>
+                        <div class="detalhes-canal">
+                            <h3>TNT Sports Brasil</h3>
+                            <span>11 mi de inscritos</span>
+                            <p>O dia que Boateng não vai esquecer Messi e você nunca vai esquecer essa jogada. Mas além desse golaço, Messi ainda marcou outro de fora da área e Neymar deu números finais na partida</p>
+                        </div>
+                        <button class="botao-inscrever">Inscrever-se</button>
+                    </div>
+                </div>
+                
+                <div class="secao-comentarios">
+                    <h3>250.236 comentários</h3>
+                    <div class="adicionar-comentario">
+                        <div class="avatar-usuario pequeno">U</div>
+                        <input type="text" placeholder="Adicione um comentário...">
+                    </div>
+                    <div class="comentario">
+                        <div class="avatar-usuario pequeno">C</div>
+                        <div class="conteudo-comentario">
+                            <h4>Cauã <span>1 dia atrás</span></h4>
+                            <p>O Messi é simplesmente de outro planeta. O cara joga fácil, 👏🔥</p>
+                            <div class="acoes-comentario">
+                                <i class="fas fa-thumbs-up"></i> 15.548
+                                <i class="fas fa-thumbs-down"></i> 25
+                                <span>Responder</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="videos-recomendados">
+                <h2>Recomendados</h2>
+
+                <div class="cartao-video" onclick="window.open('https:/www.youtube.com/watch?v=dghDh1Nnkzo', '_blank')">
+                    <div class="miniatura">
+                        <img src="https://i.ytimg.com/vi/dghDh1Nnkzo/hqdefault.jpg" alt="Barcelona 6 x 1 PSG - Melhores Momentos">
+                        <span>10:12</span>
+                    </div>
+                    <div class="detalhes-video">
+                        <h3>Barcelona 6 x 1 PSG - Melhores Momentos</h3>
+                        <p>Canal Futebol HD</p>
+                        <p><i class="fas fa-eye"></i> 2,3 mi &nbsp;&nbsp; <i class="fas fa-thumbs-up"></i> 120 mil</p>
+                    </div>
+                </div>
+
+                <div class="cartao-video" onclick="window.open('https:/www.youtube.com/watch?v=SZmICfgh6yI', '_blank')">
+                    <div class="miniatura">
+                        <img src="https://i.ytimg.com/vi/SZmICfgh6yI/hqdefault.jpg" alt="CJOTA - VOU MORRER COM MEU ORGULHO">
+                        <span>3:12</span>
+                    </div>
+                    <div class="detalhes-video">
+                        <h3>CJOTA - VOU MORRER COM MEU ORGULHO FEAT. DFIDELIZ</h3>
+                        <p>CJOTA</p>
+                        <p><i class="fas fa-eye"></i> 150 mi &nbsp;&nbsp; <i class="fas fa-thumbs-up"></i> 3,5 mi</p>
+                    </div>
+                </div>
+
+                <div class="cartao-video" onclick="window.open('https:/www.youtube.com/watch?v=YykjpeuMNEk', '_blank')">
+                    <div class="miniatura">
+                        <img src="https://i.ytimg.com/vi/YykjpeuMNEk/hqdefault.jpg" alt="Coldplay - Hymn For The Weekend">
+                        <span>4:21</span>
+                    </div>
+                    <div class="detalhes-video">
+                        <h3>Coldplay - Hymn For The Weekend (Official Video)</h3>
+                        <p>Coldplay</p>
+                        <p><i class="fas fa-eye"></i> 1,5 bi &nbsp;&nbsp; <i class="fas fa-thumbs-up"></i> 10 mi</p>
+                    </div>
+                </div>
+
+                <div class="cartao-video" onclick="window.open('https:/www.youtube.com/watch?v=0dsu8tzuGmo', '_blank')">
+                    <div class="miniatura">
+                        <img src="https://i.ytimg.com/vi/0dsu8tzuGmo/hqdefault.jpg" alt="Kayblack - Discreto">
+                        <span>3:22</span>
+                    </div>
+                    <div class="detalhes-video">
+                        <h3>Kayblack - Discreto (Videoclipe Oficial)</h3>
+                        <p>Kayblack</p>
+                        <p><i class="fas fa-eye"></i> 10 mi &nbsp;&nbsp; <i class="fas fa-thumbs-up"></i> 890 mil</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
